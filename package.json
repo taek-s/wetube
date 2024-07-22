@@ -1,0 +1,22 @@
+{
+  "name": "wetube",
+  "version": "1.0.0",
+  "description": "nodejs practive",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taek-s/wetube.git"
+  },
+  "scripts": {
+    "win": "node index.js"
+  },
+  "author": "kimst",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taek-s/wetube/issues"
+  },
+  "homepage": "https://github.com/taek-s/wetube#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

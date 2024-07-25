@@ -9,10 +9,11 @@ URL|설명
 `/join` | Join
 `/login` | Login
 `/search` | Search
-`/users/edit` | Edit User
-`/users/delete` | Delete User
-`/videos/watch` | Watch Video
-`/videos/edit` | Edit Video
-`/videos/delete` | Delete Video
-`/videos/comments` | Comment on a Video
-`/videos/comments/delete` | Delete a Comment of a Video
+`/users/:userId` | See User
+`/users/logout` | Log Out
+`/users/edit` | Edit My Profile
+`/users/delete` | Delete My Profile
+`/videos/:videoId` | See Video
+`/videos/:videoId/edit` | Edit Video
+`/videos/:videoId/delete` | Delete Video
+`/videos/upload` | Upload Video

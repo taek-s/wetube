@@ -1,9 +1,11 @@
 import express from "express";
+import {homeHandler, joinHandler, loginHandler, searchHandler} from "../controllers/globalController";
 
 const globalRouter = express.Router();
-const mainHandler = (req, res) => res.send("Main");
-const joinHandler = (req, res) => res.send("Join");
-globalRouter.get("/", mainHandler);
+
+globalRouter.get("/", homeHandler);
 globalRouter.get("/join", joinHandler);
+globalRouter.get("/login", loginHandler);
+globalRouter.get("/search", searchHandler);
 
 export default globalRouter;
